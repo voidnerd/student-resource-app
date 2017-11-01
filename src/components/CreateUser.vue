@@ -54,8 +54,8 @@
                 <input v-model="user.department" type="text" class="form-control" id="department" placeholder="John">
                 </div>
                 <div class="form-group col-md-6">
-                      <label for="inputLevel">Level</label>
-                        <select v-model="user.level" id="inputLevel" >
+                      <label for="inputLevel">Level</label><br>
+                        <select v-model="user.level" id="inputLevel"  class="custom-select">
                             <option selected="selected" :value="100">100</option>
                             <option value="200">200</option>
                             <option value="300">300</option>
@@ -97,6 +97,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+select {
+    width: 100%;
+}
 
 </style>
