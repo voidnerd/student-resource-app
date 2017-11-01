@@ -3,16 +3,19 @@ var express = require("express"),
     bodyParser = require("body-parser"),
     cors = require("cors"),
     mongoose = require("mongoose"),
-
-    config = require("./model/config")
     userRoutes = require("./routes/userRoutes");
+     require('dotenv').config();
 
 mongoose.Promise = global.Promise;
+
+var local_db = process.env.DB_CONNECTION + "://" + process.env.DB_HOST + ":" + 
+         process.env.DB_PORT + "/" + process.env.DB_DATABASE;
+var db = process.env.MONGODB_URI || local_db;
     
-mongoose.connect(config.DB)
+mongoose.connect(db)
     .then(
     () => {console.log("database connected")},
-    err => {console.log("database connection failure")}
+    err => {console.log(err)}
     );
 
 

@@ -51,7 +51,7 @@
              <div class="form-row">
                 <div class="form-group col-md-6">
                 <label for="department">Department</label>
-                <input v-model="user.department" type="text" class="form-control" id="department" placeholder="John">
+                <input v-model="user.department" type="text" class="form-control" id="department" placeholder="Computer Science">
                 </div>
                 <div class="form-group col-md-6">
                       <label for="inputLevel">Level</label><br>
