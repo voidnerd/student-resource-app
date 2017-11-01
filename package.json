@@ -4,6 +4,7 @@
   "description": "A Vue.js project",
   "author": "Nddy Andy <iam.ndie@gmail.com>",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node index.js",
@@ -91,8 +92,8 @@
     "axios": "^0.17.0"
   },
   "engines": {
-    "node": ">= 8.6.0",
-    "npm": ">= 5.5.1"
+    "node": ">= 4.0.0",
+    "npm": ">= 3..0.0"
   },
   "browserslist": [
     "> 1%",
