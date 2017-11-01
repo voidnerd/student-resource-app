@@ -9,6 +9,7 @@ test/unit/coverage
 test/e2e/reports
 selenium-debug.log
 model/config.js
+.env
 
 # Editor directories and files
 .idea

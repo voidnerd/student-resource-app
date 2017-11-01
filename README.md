@@ -1,30 +1,16 @@
 # student-resourse-app
 
-> A Vue.js project
+> A student resource app build with nodejs and view
 
-## Build Setup
+# Features
+- Can add student resource
+- Can view Student resource
+- can Edit STudent resource
+- Can delete student resource
 
-``` bash
-# install dependencies
-npm install
+# Contribution
 
-# serve with hot reload at localhost:8080
-npm run dev
+- Fork the repo
+- Add or Enhance any feature
+- Send a PR
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
