@@ -10,6 +10,12 @@ test/e2e/reports
 selenium-debug.log
 model/config.js
 .env
+.eslintrs.js
+.eslintrc.js
+.postcssrc.js
+.babelrc
+.editorconfig
+
 
 # Editor directories and files
 .idea
